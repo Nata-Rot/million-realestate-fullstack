@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 type Property = {
   id: string;
@@ -19,7 +19,7 @@ type ApiResponse = {
   data: Property[];
 };
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5168';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5242';
 
 export default function HomePage() {
   const [name, setName] = useState('');
@@ -29,7 +29,7 @@ export default function HomePage() {
   const [loading, setLoading] = useState(false);
   const [items, setItems] = useState<Property[]>([]);
 
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     setLoading(true);
     const params = new URLSearchParams();
     if (name) params.set('name', name);
@@ -43,9 +43,11 @@ export default function HomePage() {
     const json: ApiResponse = await res.json();
     setItems(json.data);
     setLoading(false);
-  };
+  }, [name, address, minPrice, maxPrice]); 
 
-  useEffect(() => { fetchData(); }, []);
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
 
   return (
     <div className="space-y-6">

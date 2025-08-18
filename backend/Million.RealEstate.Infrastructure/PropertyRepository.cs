@@ -6,8 +6,8 @@ namespace Million.RealEstate.Infrastructure;
 
 public class MongoSettings
 {
-    public string ConnectionString { get; set; } = "mongodb://localhost:27017";
-    public string Database { get; set; } = "million_realestate";
+    public string ConnectionString { get; set; } = "mongodb://appuser:AppPass123@localhost:27017/millionRealEstate";
+    public string Database { get; set; } = "millionRealEstate";
     public string Collection { get; set; } = "properties";
 }
 
@@ -28,21 +28,16 @@ public class PropertyRepository : IPropertyRepository
         var filters = new List<FilterDefinition<Property>>();
 
         if (!string.IsNullOrWhiteSpace(filter.Name))
-        {
             filters.Add(builder.Regex(p => p.Name, new MongoDB.Bson.BsonRegularExpression(filter.Name, "i")));
-        }
+
         if (!string.IsNullOrWhiteSpace(filter.Address))
-        {
             filters.Add(builder.Regex(p => p.AddressProperty, new MongoDB.Bson.BsonRegularExpression(filter.Address, "i")));
-        }
+
         if (filter.MinPrice.HasValue)
-        {
             filters.Add(builder.Gte(p => p.PriceProperty, filter.MinPrice.Value));
-        }
+
         if (filter.MaxPrice.HasValue)
-        {
             filters.Add(builder.Lte(p => p.PriceProperty, filter.MaxPrice.Value));
-        }
 
         var finalFilter = filters.Count > 0 ? builder.And(filters) : FilterDefinition<Property>.Empty;
 

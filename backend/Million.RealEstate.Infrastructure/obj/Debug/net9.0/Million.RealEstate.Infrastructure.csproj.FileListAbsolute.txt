@@ -1,0 +1,16 @@
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\bin\Debug\net9.0\Million.RealEstate.Infrastructure.deps.json
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\bin\Debug\net9.0\Million.RealEstate.Infrastructure.dll
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\bin\Debug\net9.0\Million.RealEstate.Infrastructure.pdb
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\bin\Debug\net9.0\Million.RealEstate.Core.dll
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\bin\Debug\net9.0\Million.RealEstate.Core.pdb
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million.RealEstate.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million.RealEstate.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million.RealEstate.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million.RealEstate.Infrastructure.AssemblyInfo.cs
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million.RealEstate.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million.RealEstate.Infrastructure.sourcelink.json
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million..3DF3E7C0.Up2Date
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million.RealEstate.Infrastructure.dll
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\refint\Million.RealEstate.Infrastructure.dll
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\Million.RealEstate.Infrastructure.pdb
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Infrastructure\obj\Debug\net9.0\ref\Million.RealEstate.Infrastructure.dll

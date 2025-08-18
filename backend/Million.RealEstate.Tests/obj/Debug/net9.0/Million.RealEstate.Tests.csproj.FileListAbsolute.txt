@@ -1,0 +1,11 @@
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_Million.RealEstate.Tests
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_Million.RealEstate.Tests
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\Million.RealEstate.Tests.csproj.AssemblyReference.cache
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\MvcTestingAppManifest.json
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\Million.RealEstate.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\Million.RealEstate.Tests.gentestingplatformentrypointinputcache.cache
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\Million.RealEstate.Tests.genautoregisteredextensionsinputcache.cache
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\Million.RealEstate.Tests.AssemblyInfoInputs.cache
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\Million.RealEstate.Tests.AssemblyInfo.cs
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\Million.RealEstate.Tests.csproj.CoreCompileInputs.cache
+C:\Users\natal\Documents\ProyectosDeveloper2025\million-realestate-fullstack\backend\Million.RealEstate.Tests\obj\Debug\net9.0\Million.RealEstate.Tests.sourcelink.json

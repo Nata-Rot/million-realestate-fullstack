@@ -12,7 +12,7 @@ type Property = {
   imageUrl: string;
 };
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5168';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5242';
 
 export default function PropertyPage({ params }: { params: { id: string } }) {
   const [item, setItem] = useState<Property | null>(null);
