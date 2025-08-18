@@ -1,0 +1,26 @@
+[
+  {
+    "Id": "prop-001",
+    "IdOwner": "owner-001",
+    "Name": "Apartamento Chic en Chapinero",
+    "AddressProperty": "Cra 7 # 65-30, Bogotá",
+    "PriceProperty": 520000000,
+    "ImageUrl": "https://images.unsplash.com/photo-1505691723518-36a5ac3b2d53"
+  },
+  {
+    "Id": "prop-002",
+    "IdOwner": "owner-002",
+    "Name": "Casa Campestre La Calera",
+    "AddressProperty": "Vereda El Salitre, La Calera",
+    "PriceProperty": 1450000000,
+    "ImageUrl": "https://images.unsplash.com/photo-1523217582562-09d0def993a6"
+  },
+  {
+    "Id": "prop-003",
+    "IdOwner": "owner-003",
+    "Name": "Loft Moderno en Medellín",
+    "AddressProperty": "Carrera 43A #1-50, Medellín",
+    "PriceProperty": 780000000,
+    "ImageUrl": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c52f"
+  }
+]
