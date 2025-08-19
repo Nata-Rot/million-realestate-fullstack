@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "b1ed26a9-c3d1-432c-a666-90a888694d5b",
+		"name": "Million RealEstate API",
+		"description": "Colección para probar el API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11591217"
+	},
+	"item": [
+		{
+			"name": "Listar propiedades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "GET {{baseUrl}}/api/properties?name=apartamento&address=Madrid&minPrice=150000&maxPrice=400000&page=1&pageSize=25",
+					"host": [
+						"GET {{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"properties"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "apartamento"
+						},
+						{
+							"key": "address",
+							"value": "Madrid"
+						},
+						{
+							"key": "minPrice",
+							"value": "150000"
+						},
+						{
+							"key": "maxPrice",
+							"value": "400000"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageSize",
+							"value": "25"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Detalle propiedad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/properties/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"properties",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Seed (dev)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/dev/seed",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"dev",
+						"seed"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:5242"
+		}
+	]
+}
