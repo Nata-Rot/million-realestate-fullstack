@@ -20,10 +20,12 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
         policy => policy
-            .WithOrigins("http://localhost:3000") // frontend Next.js
+            .WithOrigins("http://localhost:3000")
             .AllowAnyHeader()
             .AllowAnyMethod());
 });
+
+app.UseCors("AllowFrontend");
 
 // -------------------- Swagger --------------------
 builder.Services.AddEndpointsApiExplorer();

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1",
+    "name": "Casa Moderna en Zona Norte",
+    "addressProperty": "Calle 123 #45-67, Bogotá",
+    "priceProperty": 450000000,
+    "description": "Hermosa casa moderna con 3 habitaciones, 2 baños, cocina integral y jardín.",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 120,
+    "propertyType": "Casa",
+    "status": "En Venta",
+    "imageUrl": "/images/property1.webp"
+  },
+  {
+    "id": "2",
+    "name": "Apartamento Centro Histórico",
+    "addressProperty": "Carrera 7 #12-34, Bogotá Centro",
+    "priceProperty": 280000000,
+    "description": "Apartamento renovado en el centro histórico, 2 habitaciones, 1 baño.",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "area": 85,
+    "propertyType": "Apartamento",
+    "status": "En Venta",
+    "imageUrl": "/images/property2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Casa Campestre Chía",
+    "addressProperty": "Vereda La Balsa, Chía, Cundinamarca",
+    "priceProperty": 650000000,
+    "description": "Casa campestre con vista a la sabana, 4 habitaciones, 3 baños, piscina.",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "area": 200,
+    "propertyType": "Casa",
+    "status": "En Venta",
+    "imageUrl": "/images/property3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Apartamento Zona Rosa",
+    "addressProperty": "Calle 82 #11-50, Zona Rosa",
+    "priceProperty": 520000000,
+    "description": "Moderno apartamento en la Zona Rosa, 2 habitaciones, 2 baños, balcón.",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 95,
+    "propertyType": "Apartamento",
+    "status": "En Venta",
+    "imageUrl": "/images/property4.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Casa Familiar Suba",
+    "addressProperty": "Calle 145 #90-12, Suba",
+    "priceProperty": 380000000,
+    "description": "Casa de dos pisos perfecta para familias, 3 habitaciones, 2 baños, garaje.",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 110,
+    "propertyType": "Casa",
+    "status": "En Venta",
+    "imageUrl": "/images/property5.webp"
+  }
+]

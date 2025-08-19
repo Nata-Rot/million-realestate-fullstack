@@ -1279,6 +1279,7 @@
       "Microsoft.AspNetCore.OpenApi >= 9.0.8",
       "Million.RealEstate.Core >= 1.0.0",
       "Million.RealEstate.Infrastructure >= 1.0.0",
+      "MongoDB.Driver >= 2.25.0",
       "Swashbuckle.AspNetCore >= 9.0.3"
     ]
   },
@@ -1343,6 +1344,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.8, )"
+          },
+          "MongoDB.Driver": {
+            "target": "Package",
+            "version": "[2.25.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

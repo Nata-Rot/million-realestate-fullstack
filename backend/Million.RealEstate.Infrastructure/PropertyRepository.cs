@@ -6,7 +6,7 @@ namespace Million.RealEstate.Infrastructure;
 
 public class MongoSettings
 {
-    public string ConnectionString { get; set; } = "mongodb://appuser:AppPass123@localhost:27017/millionRealEstate";
+    public string ConnectionString { get; set; } = "mongodb://localhost:27017";
     public string Database { get; set; } = "millionRealEstate";
     public string Collection { get; set; } = "properties";
 }
@@ -56,12 +56,24 @@ public class PropertyRepository : IPropertyRepository
     public async Task<Property?> GetByIdAsync(string id, CancellationToken ct)
         => await _collection.Find(x => x.Id == id).FirstOrDefaultAsync(ct);
 
+
     public async Task SeedIfEmptyAsync(IEnumerable<Property> items, CancellationToken ct)
     {
-        var count = await _collection.CountDocumentsAsync(Builders<Property>.Filter.Empty, cancellationToken: ct);
-        if (count == 0 && items.Any())
+        // Vaciar la colección primero
+        await _collection.DeleteManyAsync(Builders<Property>.Filter.Empty, cancellationToken: ct);
+
+        if (items.Any())
         {
+            // Asegurarnos de que cada documento tenga _id único
+            foreach (var item in items)
+            {
+                if (string.IsNullOrEmpty(item.Id))
+                    item.Id = MongoDB.Bson.ObjectId.GenerateNewId().ToString();
+            }
+
             await _collection.InsertManyAsync(items, cancellationToken: ct);
         }
     }
+
+
 }

@@ -39,11 +39,20 @@ export default function HomePage() {
     params.set('page', '1');
     params.set('pageSize', '24');
 
-    const res = await fetch(`${API_URL}/api/properties?${params.toString()}`);
-    const json: ApiResponse = await res.json();
-    setItems(json.data);
-    setLoading(false);
-  }, [name, address, minPrice, maxPrice]); 
+    try {
+      const res = await fetch(`${API_URL}/api/properties?${params.toString()}`);
+      if (!res.ok) {
+        throw new Error(`Error en fetch: ${res.status} ${res.statusText}`);
+      }
+      const json: ApiResponse = await res.json();
+      setItems(json.data);
+    } catch (err) {
+      console.error('Error fetching data:', err);
+    } finally {
+      setLoading(false);
+    }
+  }, [name, address, minPrice, maxPrice]);
+
 
   useEffect(() => {
     fetchData();
