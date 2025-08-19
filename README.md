@@ -47,6 +47,11 @@ npm run dev
 # Abrir http://localhost:3000
 ```
 
+* Index principal Inmobiliaría, Propiedades:
+<img width="1901" height="1097" alt="image" src="https://github.com/user-attachments/assets/80f444cb-18ea-4b3a-aaba-3f6fc025ea40" />
+* Detalle Propiedad:
+<img width="1855" height="1077" alt="image" src="https://github.com/user-attachments/assets/8a89cf55-fb12-4d2b-842b-a3289e37ce17" />
+
 ### 4) Tests (NUnit)
 ```bash
 cd backend/Million.RealEstate.Tests
@@ -65,8 +70,6 @@ dotnet test
 - Frontend responsive con tarjetas, filtros y vista de detalle.
 - Imágenes con `next/image` con patrón remoto habilitado.
 
-<img width="1901" height="1097" alt="image" src="https://github.com/user-attachments/assets/80f444cb-18ea-4b3a-aaba-3f6fc025ea40" />
-<img width="1855" height="1077" alt="image" src="https://github.com/user-attachments/assets/8a89cf55-fb12-4d2b-842b-a3289e37ce17" />
 <img width="1885" height="1063" alt="image" src="https://github.com/user-attachments/assets/d199f98e-3503-419e-ad01-12cda9ce1fbc" />
 <img width="1817" height="1032" alt="image" src="https://github.com/user-attachments/assets/41130ca7-e8a4-4eb6-99d3-a57bbe353dc9" />
 <img width="1717" height="941" alt="image" src="https://github.com/user-attachments/assets/c1803ec0-2f32-47ce-9209-c948fff4a8d0" />
