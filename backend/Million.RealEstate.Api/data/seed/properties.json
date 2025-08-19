@@ -10,7 +10,7 @@
     "area": 120,
     "propertyType": "Casa",
     "status": "En Venta",
-    "imageUrl": "/images/property1.webp"
+    "imageUrl": "property1.webp"
   },
   {
     "id": "2",
@@ -23,7 +23,7 @@
     "area": 85,
     "propertyType": "Apartamento",
     "status": "En Venta",
-    "imageUrl": "/images/property2.jpg"
+    "imageUrl": "property2.jpg"
   },
   {
     "id": "3",
@@ -36,7 +36,7 @@
     "area": 200,
     "propertyType": "Casa",
     "status": "En Venta",
-    "imageUrl": "/images/property3.jpg"
+    "imageUrl": "property3.jpg"
   },
   {
     "id": "4",
@@ -49,7 +49,7 @@
     "area": 95,
     "propertyType": "Apartamento",
     "status": "En Venta",
-    "imageUrl": "/images/property4.jpg"
+    "imageUrl": "property4.jpg"
   },
   {
     "id": "5",
@@ -62,6 +62,6 @@
     "area": 110,
     "propertyType": "Casa",
     "status": "En Venta",
-    "imageUrl": "/images/property5.webp"
+    "imageUrl": "property5.webp"
   }
 ]
