@@ -1,0 +1,40 @@
+[{
+  "_id": "1",
+  "IdOwner": null,
+  "Name": "Casa Moderna en Zona Norte",
+  "AddressProperty": "Calle 123 #45-67, Bogotá",
+  "PriceProperty": "450000000",
+  "ImageUrl": "property1.webp"
+},
+{
+  "_id": "2",
+  "IdOwner": null,
+  "Name": "Apartamento Centro Histórico",
+  "AddressProperty": "Carrera 7 #12-34, Bogotá Centro",
+  "PriceProperty": "280000000",
+  "ImageUrl": "property2.jpg"
+},
+{
+  "_id": "3",
+  "IdOwner": null,
+  "Name": "Casa Campestre Chía",
+  "AddressProperty": "Vereda La Balsa, Chía, Cundinamarca",
+  "PriceProperty": "650000000",
+  "ImageUrl": "property3.jpg"
+},
+{
+  "_id": "4",
+  "IdOwner": null,
+  "Name": "Apartamento Zona Rosa",
+  "AddressProperty": "Calle 82 #11-50, Zona Rosa",
+  "PriceProperty": "520000000",
+  "ImageUrl": "property4.jpg"
+},
+{
+  "_id": "5",
+  "IdOwner": null,
+  "Name": "Casa Familiar Suba",
+  "AddressProperty": "Calle 145 #90-12, Suba",
+  "PriceProperty": "380000000",
+  "ImageUrl": "property5.webp"
+}]
