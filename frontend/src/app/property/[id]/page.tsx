@@ -97,7 +97,6 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       <div className="container mx-auto px-4 py-8">
-        {/* Botón de regreso */}
         <div className="mb-6">
           <a
             href="/"
@@ -108,9 +107,7 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
           </a>
         </div>
 
-        {/* Contenido principal */}
         <div className="grid lg:grid-cols-3 gap-8">
-          {/* Imagen principal */}
           <div className="lg:col-span-2">
             <div className="relative w-full h-96 lg:h-[500px] bg-slate-700 rounded-2xl overflow-hidden shadow-2xl">
               {!imgError && imageUrl ? (
@@ -129,7 +126,6 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
                 </div>
               )}
               
-              {/* Badge de estado */}
               {item.status && (
                 <div className="absolute top-4 left-4">
                   <div className="px-3 py-1 bg-green-600 text-white text-sm font-semibold rounded-full shadow-lg">
@@ -140,9 +136,7 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
             </div>
           </div>
 
-          {/* Información de la propiedad */}
           <div className="space-y-6">
-            {/* Card principal */}
             <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 shadow-xl">
               <div className="space-y-4">
                 <div>
@@ -165,7 +159,6 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
                   )}
                 </div>
 
-                {/* Características */}
                 {(item.bedrooms || item.bathrooms || item.area) && (
                   <div className="pt-4 border-t border-slate-700">
                     <h3 className="text-lg font-semibold text-white mb-3">Características</h3>
@@ -195,7 +188,6 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
                   </div>
                 )}
 
-                {/* Propietario */}
                 <div className="pt-4 border-t border-slate-700">
                   <div className="flex items-center gap-3 text-slate-400">
                     <div className="p-2 bg-slate-700/50 rounded-lg">
@@ -208,7 +200,6 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
                   </div>
                 </div>
 
-                {/* Botón de contacto */}
                 <div className="pt-4">
                   <button className="w-full py-4 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700 text-white font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 focus:ring-4 focus:ring-indigo-500/25">
                     Contactar Propietario
@@ -217,7 +208,6 @@ export default function PropertyPage({ params }: { params: Promise<{ id: string 
               </div>
             </div>
 
-            {/* Descripción */}
             {item.description && (
               <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-2xl p-6 shadow-xl">
                 <h3 className="text-lg font-semibold text-white mb-4">Descripción</h3>

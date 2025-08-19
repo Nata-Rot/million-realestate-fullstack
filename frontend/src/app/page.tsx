@@ -35,21 +35,17 @@ export default function HomePage() {
     setImageErrors(prev => new Set([...prev, propertyId]));
   };
 
-  // Función para construir la URL de la imagen de forma segura
   const getImageUrl = (imageUrl: string): string => {
     if (!imageUrl) return '';
     
-    // Si ya es una URL completa, la devolvemos tal como está
     if (imageUrl.startsWith('http://') || imageUrl.startsWith('https://')) {
       return imageUrl;
     }
     
-    // Si comienza con slash, es una ruta absoluta
     if (imageUrl.startsWith('/')) {
       return imageUrl;
     }
     
-    // Si no, la tratamos como un archivo en la carpeta images
     return `/images/${imageUrl}`;
   };
 
@@ -68,7 +64,6 @@ export default function HomePage() {
       if (!res.ok) throw new Error(`Error: ${res.status}`);
       const json: ApiResponse = await res.json();
       setItems(json.data);
-      // Reset image errors when new data loads
       setImageErrors(new Set());
     } catch (err) {
       console.error('Error fetching data:', err);
